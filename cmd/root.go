@@ -9,5 +9,7 @@ func Execute() error {
 }
 
 func init(){
+	// 将cmd注册
 	rootCmd.AddCommand(wordCmd)
+	rootCmd.AddCommand(timeCmd)
 }
